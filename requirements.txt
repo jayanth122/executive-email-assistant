@@ -1,0 +1,38 @@
+# python package requirements file
+
+# Note to our Learners: Our courses are created at a specific point in time. The models and libraries used will naturally change over time.
+# If you download and run the notebooks locally, you should create a Python virtual environment  
+# with the Python version matching the one used in the course and use this requirements.txt file to install the required Python packages.
+# Due to the wide diversity of platforms and environments, DeepLearning does not explicitly support running locally. However, if you encounter
+# issues, the course support channel is a good place to ask questions.
+
+
+# note which revision of python, for example 3.9.6
+# in this file, insert all the pip install needs, include revision
+# python 3.11
+
+# Python version used
+python_version == "3.11"
+
+# Core LLM & agent tooling
+langchain==0.3.18
+langchain-groq
+pydantic>=2.0,<3.0
+
+# Calendar + Google API support
+google-api-python-client>=2.97.0
+google-auth>=2.25.2
+google-auth-oauthlib>=1.2.0
+
+# Timezone handling
+pytz>=2024.1
+
+# Email support (built-in modules used, no external package needed)
+
+# Optional or unused in this script
+# ollama        # <-- Not used in your current code
+# langgraph     # <-- Warned as a future replacement, not used now
+# langmem       # <-- Not used in your current code
+# python-dotenv # <-- Only needed if you load env vars from `.env`, not used here
+
+
