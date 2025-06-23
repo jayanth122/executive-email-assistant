@@ -66,7 +66,7 @@ Decide on the appropriate action
 
 Execute the action (e.g., check availability, schedule meeting, or send summary)
 
-🧠 How It Works
+### How It Works
 Email Classification Logic
 Classification	Triggers	Example Use Case
 ignore	None	Newsletters, spam, marketing emails
