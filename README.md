@@ -55,7 +55,7 @@ Download the credentials.json and place it in your project root
 
 On first run, the app will prompt for Google login and generate token.json
 
-🧪 Usage
+### 🧪 Usage
 Run the assistant with:
 python main.py
 The app will:
